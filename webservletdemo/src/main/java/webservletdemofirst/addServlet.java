@@ -27,6 +27,7 @@ public class addServlet extends HttpServlet {
 		int sum = number1 + number2;
 		PrintWriter pw = response.getWriter();
 		pw.println("sum of two number is&nbsp;&nbsp" +sum);
+		System.out.println("data addes");
 		
 	}
 
